@@ -1,3 +1,6 @@
-Welcome to My First Repo
+Welcome to Heady Repo
 -------------------------------
-This repo is a practice repo I am using to learn Bitbucket.
+Guidelines for how to run the app
+
+1. Run `$ npm install`
+2. npm start
