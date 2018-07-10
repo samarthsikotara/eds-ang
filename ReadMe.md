@@ -8,3 +8,8 @@ Guidelines for how to run the app
 Tasks need to be done:
 
 1. Add a category -- `POST /api/categories`
+
+    {
+    	"name" : "Fruits",
+    	"type": "Organic"
+    }
