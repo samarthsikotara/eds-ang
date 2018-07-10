@@ -10,8 +10,7 @@ var categorySchema = new Schema({
   products: [{type: Schema.Types.ObjectId, ref: 'Product'}],
   parentId: {type: Schema.Types.ObjectId, ref:'Category', autopopulate: true},
   path: {type: String},
-  siblings: [{type: Schema.Types.ObjectId, ref:'Category', autopopulate: true}],
-  categoryId: {type: String},
+  siblings: [{type: Schema.Types.ObjectId, ref:'Category', autopopulate: true}]
 }, 
 { 
   timestamps: true
