@@ -31,7 +31,7 @@ Tasks need to be done:
 
 4. Get all products by a category -- `GET /api/categories/5b44962ae3f38f34cf5d1b0f/products`
 
-5. Update product details (name,price,etc) -- `GET /api/products/5b44ce851bbe463ec5b31449/update`
+5. Update product details (name,price,etc) -- `POST /api/products/5b44ce851bbe463ec5b31449/update`
 
 ```
 {
