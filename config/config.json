@@ -1,17 +1,24 @@
 {
   "development": {
-    "host": "localhost",
-    "port": 27017,
-    "database": "heady_development"
+    "username": "postgres",
+    "password": "your-pass",
+    "database": "eds_development",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
   },
   "test": {
-    "host": "localhost",
-    "port": 27017,
-    "database": "test"
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
   },
   "production": {
-    "host": "localhost",
-    "port": 27017,
-    "database": "test"
+    "username": "master_alleyoop",
+    "password": "AlleyOop123",
+    "database": "business_master_production",
+    "host": "alleyoop-prod.cbzvtgc6zxyr.ap-south-1.rds.amazonaws.com",
+    "dialect": "postgres",
+    "logging": false
   }
 }
